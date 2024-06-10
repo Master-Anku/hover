@@ -21,7 +21,7 @@ span:hover {
     background-color: blue;
     display: inline-block; 
     /* display: flex; */
-    background-image: url(anku.png);
+    background-image: url(../images/anku.png);
     background-position: top;
     height: 200px;
     width: 150px;
