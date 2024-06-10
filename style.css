@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 35px;
+    width: 100%;
+   background-color: rgb(102 114 108 / 32%);
+   
+}
+
+h1 {
+    margin-inline: 100px 0;
+    
+}
+
+span:hover {
+    background-color: blue;
+    display: inline-block; 
+    /* display: flex; */
+    background-image: url(anku.png);
+    background-position: top;
+    height: 200px;
+    width: 150px;
+    border-radius: 20%;
+    border-bottom: 3px solid red;
+    text-align: center;
+    justify-content: center;
+    /* margin-top: 25px; */
+}
+
+nav  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav a {
+    /* margin: 7px 0; */
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
